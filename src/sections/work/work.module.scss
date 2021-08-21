@@ -1,0 +1,97 @@
+@import "../../styles/globals";
+
+.Work {
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.TimelineContainer {
+  display: flex;
+  margin-top: 50px;
+}
+
+.TimeContainer {
+  position: relative;
+  width: 100px;
+}
+.Time {
+  &::after {
+    content: "";
+    background: $main-color;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+  }
+}
+
+.CardContainer {
+  position: relative;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+.CardContent {
+  padding: 15px;
+  height: 100%;
+  margin: 0;
+}
+
+.Card {
+  background: #ea728c;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  transition: height 0.2s ease-in;
+  //  &:hover{
+  //     height: 100%;
+  //     &::before{
+  //         content:'';
+  //         position:absolute;
+  //         height: calc(100% + 70px);
+  //         left:-13px;
+  //         top:0px;
+  //         width: 5px;
+  //         border-radius: 20px;
+  //         background: $main-color;
+  //     }
+  //  }
+  &::before {
+    content: "";
+    position: absolute;
+    height: calc(100% + 70px);
+    left: -13px;
+    top: 0px;
+    width: 5px;
+    border-radius: 20px;
+    background: $main-color;
+    transition: height 0.2s ease-in;
+  }
+}
+
+.Title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 4px 0px 6px 0px;
+}
+
+.SubTitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 2px 0px 4px 0px;
+}
+
+.Details {
+  padding-left: 20px;
+  li {
+    margin-bottom: 10px;
+  }
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
