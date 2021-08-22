@@ -1,18 +1,20 @@
-.Home {
+.home {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
 
-  h4 {
-    margin: 0;
-  }
 
-  h3 {
-    margin: 4px 0 15px 0;
-  }
+.scrollup-container{
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.icons-container{
   a {
     margin-right: 15px;
+  } 
     margin-top: 15px;
-  }
 }
+

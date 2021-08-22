@@ -1,5 +1,5 @@
 import React from "react";
-import * as classes from "../styles/main.module.scss";
+import "../style/main.scss";
 import Home from "../sections/home/home";
 import Story from "../sections/story/story";
 import Work from "../sections/work/work";
@@ -9,12 +9,12 @@ import Footer from "../sections/footer/footer";
 
 export default function Index() {
   return (
-    <div className={classes.container}>
+    <div>
       <Home />
       <Story />
       <Work />
       <Education />
-      <Skill />
+      {/* <Skill /> */}
       <Footer />
     </div>
   );

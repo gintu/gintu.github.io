@@ -1,12 +1,12 @@
 import React from "react";
-import * as classes from "./story.module.scss";
+
 import Underline from "../../components/underline/underline";
 
 export default function story() {
   return (
-    <div className={classes.Story}>
-      <h2>My Story</h2>
-      <Underline width="200px" />
+    <section className="story">
+      <h1>My Story</h1>
+      {/* <Underline width="200px" /> */}
       <div>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -20,6 +20,6 @@ export default function story() {
           including versions of Lorem Ipsum.
         </p>
       </div>
-    </div>
+    </section>
   );
 }

@@ -1,0 +1,114 @@
+
+
+h1 {
+  font-size: 5.6rem;
+  font-weight: 700;
+  margin:0;
+
+  @include respond(tab-land) {
+    font-size: 5rem;
+  }
+  @include respond(tab-port) {
+    font-size: 4.8rem;    
+  }
+  @include respond(phone) {
+    font-size: 4.2rem;
+  
+  }
+  @include respond(phone-xs) {
+    font-size: 3.8rem;
+  }
+}
+
+h2{
+  font-size: 3rem;
+  font-weight: bold;
+  margin:0;
+
+  @include respond(tab-land) {
+    font-size: 3rem;
+  }
+  @include respond(tab-port) {
+    font-size: 2.8rem;    
+  }
+  @include respond(phone) {
+    font-size: 2.4rem;
+  
+  }
+  @include respond(phone-xs) {
+    font-size: 2rem;
+  }
+}
+
+h3{
+  font-size: 3rem;
+  font-weight: normal;
+  margin:0;
+
+  @include respond(tab-land) {
+    font-size: 2.8rem;
+  }
+  @include respond(tab-port) {
+    font-size: 2.6rem;    
+  }
+  @include respond(phone) {
+    font-size: 2.4rem;
+  
+  }
+  @include respond(phone-xs) {
+    font-size: 2rem;
+  }
+}
+p{
+  line-height: 2.5rem;
+
+}
+p,
+a {
+  font-family: 'Rubik', sans-serif;
+  font-size: $default-font-size;
+}
+
+a,
+a:link,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.section-title {
+  margin: 0px;
+  margin-bottom: 4.5rem;
+  font-size: $big-font-size;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  @include respond(phone) {
+    font-size: 2.8rem;
+  }
+}
+
+.dark-blue-text {
+  color: $dark-blue-text !important;
+}
+
+.text-color-main {
+  background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  // Responsive text purple style
+  @include respond(phone) {
+    background-image: none;
+    -webkit-text-fill-color: $secondary-color;
+  }
+
+  &:hover {
+    transform: translateX(2px);
+  }
+}
