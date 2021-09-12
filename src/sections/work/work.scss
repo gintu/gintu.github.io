@@ -1,9 +1,11 @@
 .container{
-  height: 50rem;
+   margin-bottom: 20rem;
 }
+
 .TimelineContainer {
   display: flex;
   margin-top: 50px;
+
 }
 
 .TimeContainer {
@@ -26,6 +28,7 @@
   position: relative;
   width: 100%;
   padding: 0px 20px;
+  
 }
 
 .CardContent {
@@ -57,7 +60,7 @@
   &::before {
     content: "";
     position: absolute;
-    height: calc(100% + 70px);
+    height: calc(100% + 7rem);
     left: -13px;
     top: 0px;
     width: 5px;

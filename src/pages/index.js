@@ -14,7 +14,7 @@ export default function Index() {
       <Story />
       <Work />
       <Education />
-      {/* <Skill /> */}
+      <Skill />
       <Footer />
     </div>
   );
