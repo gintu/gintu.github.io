@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <section className="home">
       <div className="scrollup-container">
-        <h3>
+        <h3 className="home-h3">
           <Scrollup
             elements={[
               "Hi",
@@ -24,8 +24,8 @@ export default function Home() {
           ,
         </h3>
       </div>
-      <h1>I' am Gintu Tom</h1>
-      <h2>developer, designer</h2>
+      <h1 className="home-h1">I' am Gintu Tom</h1>
+      <h2 className="home-h2">developer, designer</h2>
       <div className="icons-container">
         <a href="https://in.linkedin.com/in/gintu-tom-080b2899" target="_blank">
           <img src={linkedin} alt={"linkedin"} />

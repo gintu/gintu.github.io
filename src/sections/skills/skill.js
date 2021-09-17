@@ -17,8 +17,8 @@ export default function Skill() {
     );
   });
   return (
-    <section>
-      <h1 className="chipSection">Skills</h1>
+    <section className="skills">
+      <h1>Skills</h1>
       <div>{toRender}</div>
     </section>
   );
