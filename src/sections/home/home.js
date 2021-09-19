@@ -3,14 +3,14 @@ import React from "react";
 import linkedin from "../../assets/linkedin.svg";
 import facebook from "../../assets/facebook.svg";
 import youtube from "../../assets/youtube.svg";
-import Scrollup from "./scrollup";
+// import Scrollup from "./scrollup";
 
 export default function Home() {
   return (
     <section className="home">
       <div className="scrollup-container">
         <h3 className="home-h3">
-          <Scrollup
+          {/* <Scrollup
             elements={[
               "Hi",
               "നമസ്കാരം",
@@ -20,8 +20,8 @@ export default function Home() {
               "ٱلسَّلَامُ عَلَيْكُمْ",
               "नमस्ते",
             ]}
-          />
-          ,
+          /> */}
+          Hi ,
         </h3>
       </div>
       <h1 className="home-h1">I' am Gintu Tom</h1>

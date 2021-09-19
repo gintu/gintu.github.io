@@ -1,29 +1,23 @@
 @import './abstracts/mixins';
 @import './abstracts/variables';
-@import './abstracts/helpers';
+
 
 @import './base/base';
 @import './base/typography';
 
 
-
-@import './layout/footer';
 @import './layout/sections';
+
 
 @import '../components/chips/chips.scss';
 @import '../components/card/card.scss';
+
 
 @import '../sections/home/home';
 @import '../sections/story/story.scss';
 @import '../sections/work/work.scss';
 @import '../sections/skills/skill.scss';
 @import '../sections/projects/projects.scss';
+@import '../sections/footer/footer.scss'
 
 
-
-// @import './sections/about';
-// @import './sections/contact';
-// @import './sections/hero';
-// @import './sections/projects';
-
-// @import './vendor/css/font-awesome.min.css';

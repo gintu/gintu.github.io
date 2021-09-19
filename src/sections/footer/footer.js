@@ -1,17 +1,31 @@
 import React from "react";
-import * as classes from "./footer.module.scss";
 
 export default function Footer() {
   return (
-    <div className={classes.Footer}>
-      <div className={classes.container}>
-        <div>
-          <h5>designed and built by gintu</h5>
+    <section className="footer">
+      <div className="footer-grid">
+        <div className="footer-div-1">
+          <h3 className="Title">gintu.</h3>
         </div>
-        <div>
-          <h5>©2021</h5>
+        <div className="footer-div-2">
+          <h4>contact</h4>
+          <p>gintutom@gmail.com</p>
+        </div>
+        <div className="footer-div-3">
+          <div>connect</div>
+          <p>linedin</p>
+          <p>twitter</p>
+          <p>github</p>
+        </div>
+        <div className="footer-div-4">
+          <div>content</div>
+          <p>home</p>
+          <p>about</p>
+          <p>work</p>
+          <p>projects</p>
         </div>
       </div>
-    </div>
+      <p>designed and built with love by gintu</p>
+    </section>
   );
 }

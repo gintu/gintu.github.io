@@ -13,7 +13,7 @@ export default function Projects() {
   //     );
   //   });
   return (
-    <section>
+    <section className="project">
       <h1 className="projectsTitle">Projects</h1>
 
       <div className="grid-container">

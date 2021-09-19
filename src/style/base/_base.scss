@@ -9,6 +9,6 @@ html {
 body {
   box-sizing: border-box;
   background: $background-color;
-  color: $main-color;
+  color: $main-color !important;
   margin: 0;
 }
