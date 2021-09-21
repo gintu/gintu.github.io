@@ -5,27 +5,27 @@ export default function Footer() {
     <section className="footer">
       <div className="footer-grid">
         <div className="footer-div-1">
-          <h3 className="Title">gintu.</h3>
+          <h1>gintu.</h1>
         </div>
         <div className="footer-div-2">
-          <h4>contact</h4>
-          <p>gintutom@gmail.com</p>
+          <h3 className="Title">Contact</h3>
+          <a>gintutom@gmail.com</a>
         </div>
         <div className="footer-div-3">
-          <div>connect</div>
-          <p>linedin</p>
-          <p>twitter</p>
-          <p>github</p>
+          <h3 className="Title">Connect</h3>
+          <a>linedin</a>
+          <a>twitter</a>
+          <a>github</a>
         </div>
         <div className="footer-div-4">
-          <div>content</div>
-          <p>home</p>
-          <p>about</p>
-          <p>work</p>
-          <p>projects</p>
+          <h3 className="Title">Content</h3>
+          <a>home</a>
+          <a>about</a>
+          <a>work</a>
+          <a>projects</a>
         </div>
       </div>
-      <p>designed and built with love by gintu</p>
+      <p className="bottom-text">Designed and built with love by gintu ©2021</p>
     </section>
   );
 }
