@@ -9,15 +9,19 @@ export default function story() {
       {/* <Underline width="200px" /> */}
       <div>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          I am just an ordinary person who loves to code. I have been coding for
+          last 9 years and I am currently working at Envestnet as a senior
+          frontend engineer. I started off making C++ console games in school
+          and later on I started making websites. I have a keen eye for the
+          design and was once ready to give up everything for cool designs. Time
+          (and responsibilities) has changed me though. Now a days I try to
+          strike balance between the two. I started by professional journey as a
+          fullstack developer and later converged to frontend as I enjoyed it
+          more (still can do backend things though).
+        </p>
+        <p>
+          I am a big fan of technology and recently got interested in economics.
+          I do little bit of travelling and photography.
         </p>
       </div>
     </section>

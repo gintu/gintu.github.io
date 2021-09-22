@@ -25,7 +25,7 @@ export default function Home() {
         </h3>
       </div>
       <h1 className="home-h1">I' am Gintu Tom</h1>
-      <h2 className="home-h2">developer, designer</h2>
+      <h2 className="home-h2">Program writer @ Envestnet</h2>
       <div className="icons-container">
         <a href="https://in.linkedin.com/in/gintu-tom-080b2899" target="_blank">
           <img src={linkedin} alt={"linkedin"} />

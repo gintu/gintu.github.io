@@ -1,23 +1,24 @@
 const set = [
   {
     title: "Programming Languages",
-    content: ["Javascript", "Java", "Python", "c", "C++"],
+    content: ["Typescript", "Javascript", "Python", "C", "C++"],
   },
   {
     title: "Libraries and Frameworks",
     content: ["React", "Redux", "Node.js", "Express", "Gatsby"],
   },
-  {
-    title: "Databases",
-    content: ["mysql", "postgress"],
-  },
+
   {
     title: "Tools",
-    content: ["git", "Github", "Postman"],
+    content: ["Git", "Github", "Postman"],
   },
   {
     title: "Design Tools",
     content: ["Figma", "Photoshop"],
+  },
+  {
+    title: "Databases",
+    content: ["Mysql", "Postgress"],
   },
 ];
 
