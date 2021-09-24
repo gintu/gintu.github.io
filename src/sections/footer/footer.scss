@@ -26,12 +26,13 @@
   }
 }
 
-.footer-grid a{
+.footer-grid a,a:active,a:visited {
   text-decoration: none ;
   display: block;
   cursor: pointer;
   line-height: 3rem;
   font-weight: 400;
+  color:$main-color;
 }
 
 .bottom-text{

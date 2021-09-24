@@ -20,11 +20,18 @@ export default function Projects() {
 
         <div className="grid-container">
           {projectsList.map((project) => (
-            <Fade bottom duration={300} delay={10} distance="30px">
+            <Fade
+              bottom
+              duration={300}
+              delay={10}
+              distance="30px"
+              key={project.title}
+            >
               <Card
                 title={project.title}
                 description={project.description}
                 tools={project.tools}
+                // key={project.title}
               />
             </Fade>
           ))}

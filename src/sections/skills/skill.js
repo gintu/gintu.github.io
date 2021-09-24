@@ -10,8 +10,14 @@ export default function Skill() {
       <div className="chipSection">
         <h4>{skill.title}</h4>
         <div style={{ display: "flex", flexWrap: "wrap" }}>
-          {skill.content.map((cont) => (
-            <Fade left duration={600} delay={200} distance="30px">
+          {skill.content.map((cont, i) => (
+            <Fade
+              left
+              duration={600}
+              delay={200}
+              distance="30px"
+              key={Math.random().toString()}
+            >
               <Chip content={cont} />
             </Fade>
           ))}
