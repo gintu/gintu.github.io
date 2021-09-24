@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmy_gatsby_site=self.webpackChunkmy_gatsby_site||[]).push([[883],{616:function(e,s,o){o.r(s);var t=o(294),n=(o(444),{color:"#232129",padding:"96px",fontFamily:"-apple-system, Roboto, sans-serif, serif"});s.default=function(){return t.createElement("main",{style:n},"ooops! page you are looking for is not found")}}}]);
-//# sourceMappingURL=component---src-pages-404-js-eb65ed4e088b57734dec.js.map
