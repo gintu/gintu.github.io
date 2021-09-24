@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
 import linkedin from "../../assets/linkedin.svg";
 import facebook from "../../assets/facebook.svg";
 import youtube from "../../assets/youtube.svg";
 
 export default function Home() {
+  const [counter, setCounter] = useState(0);
+
   return (
     <section className="home">
       <Fade bottom duration={300} delay={5} distance="30px">
@@ -15,6 +17,9 @@ export default function Home() {
       <Fade bottom duration={300} delay={300} distance="30px">
         <h1 className="home-h1">I' am Gintu Tom</h1>
       </Fade>
+      <button onClick={() => setCounter(counter + 1)}>counter</button>
+
+      {counter}
       <Fade bottom duration={300} delay={400} distance="30px">
         <h2 className="home-h2">Program writer @ Envestnet</h2>
       </Fade>
