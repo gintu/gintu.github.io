@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../../components/card/card";
+import Fade from "react-reveal/Fade";
 
 import projectsList from "./projectsList";
 
@@ -14,19 +15,21 @@ export default function Projects() {
   //   });
   return (
     <section className="project">
-      <h1 className="projectsTitle">Projects</h1>
+      <Fade bottom duration={300} delay={200} distance="30px" cascade>
+        <h1 className="projectsTitle">Projects</h1>
 
-      <div className="grid-container">
-        {projectsList.map((project) => (
-          <div>
-            <Card
-              title={project.title}
-              description={project.description}
-              tools={project.tools}
-            />
-          </div>
-        ))}
-      </div>
+        <div className="grid-container">
+          {projectsList.map((project) => (
+            <Fade bottom duration={300} delay={10} distance="30px">
+              <Card
+                title={project.title}
+                description={project.description}
+                tools={project.tools}
+              />
+            </Fade>
+          ))}
+        </div>
+      </Fade>
     </section>
   );
 }

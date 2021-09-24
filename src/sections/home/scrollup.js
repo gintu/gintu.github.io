@@ -1,9 +1,9 @@
-import React from "react"
+import React from "react";
 
 export default function Scrollup(props) {
-  const { elements } = props
+  const { elements } = props;
 
-  const [counter, setCounter] = React.useState(0)
+  const [counter, setCounter] = React.useState(0);
 
   //   setTimeout(() => {
   //     if (counter < elements.length - 1) {
@@ -13,15 +13,23 @@ export default function Scrollup(props) {
   //     }
   //   }, 1000)
 
+  // "Hi",
+  // "നമസ്കാരം",
+  // "Bonjour",
+  // "Hola",
+  // "こんにちは",
+  // "ٱلسَّلَامُ عَلَيْكُمْ",
+  // "नमस्ते",
+
   React.useEffect(() => {
     setTimeout(() => {
       if (counter < elements.length - 1) {
-        setCounter(counter + 1)
+        setCounter(counter + 1);
       } else {
-        setCounter(0)
+        setCounter(0);
       }
-    }, 1000)
-  }, [counter])
+    }, 1000);
+  }, [counter]);
 
-  return <>{elements[counter]}</>
+  return <>{elements[counter]}</>;
 }

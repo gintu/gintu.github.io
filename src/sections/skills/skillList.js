@@ -5,7 +5,7 @@ const set = [
   },
   {
     title: "Libraries and Frameworks",
-    content: ["React", "Redux", "Node.js", "Express", "Gatsby"],
+    content: ["React", "React Native", "Redux", "Node.js", "Express", "Gatsby"],
   },
 
   {
