@@ -18,10 +18,8 @@ export default function Scrollup(props) {
   }, [counter]);
 
   return (
-    <>
-      {/* <Fade bottom duration={1000} delay={10} distance="30px"> */}
+    <Fade bottom duration={100} delay={500} distance="30px">
       {elements[counter]}
-      {/* </Fade> */}
-    </>
+    </Fade>
   );
 }
