@@ -12,10 +12,13 @@
 }
 
 .icons-container{
-  a {
-    margin-right: 15px;
-  } 
-    margin-top: 15px;
+  display: flex;
+  margin: 10px 0px;
+  
+}
+
+.icons-container > a{
+  margin-right: 10px;
 }
 
 .home-h1{

@@ -7,11 +7,10 @@ import ScrollUp from "./scrollup";
 
 export default function Home() {
   return (
-    <section className="home">
-      <Fade bottom duration={300} delay={0} distance="30px" cascade>
-        <div className="scrollup-container">
-          <h3 className="home-h3">
-            {/* <ScrollUp
+    <section className="home" id="home">
+      <div className="scrollup-container">
+        <h3 className="home-h3">
+          {/* <ScrollUp
               elements={[
                 "Hi",
                 "നമസ്കാരം",
@@ -21,33 +20,35 @@ export default function Home() {
                 "नमस्ते",
               ]}
             /> */}
-            Hi,
-          </h3>
-        </div>
-        {/* </Fade> */}
-        {/* <Fade bottom duration={300} delay={500} distance="30px"> */}
-        <h1 className="home-h1">I am Gintu Tom</h1>
-        {/* </Fade> */}
+          Hi,
+        </h3>
+      </div>
+      <h1 className="home-h1">I am Gintu Tom</h1>
 
-        {/* <Fade bottom duration={300} delay={800} distance="30px"> */}
-        <h2 className="home-h2">Program writer @ Envestnet</h2>
-        {/* </Fade> */}
-        {/* <Fade bottom duration={300} delay={1000} distance="30px"> */}
-        <div className="icons-container">
-          <a
-            href="https://in.linkedin.com/in/gintu-tom-080b2899"
-            target="_blank"
-          >
-            <img src={linkedin} alt={"linkedin"} />
-          </a>
-          <a href="https://www.facebook.com/gintu.tom" target="_blank">
-            <img src={facebook} alt={"facebook"} />
-          </a>
-          <a href="https://www.youtube.com/c/gintutom" target="_blank">
-            <img src={youtube} alt={"youtube"} />
-          </a>
-        </div>
-      </Fade>
+      <h2 className="home-h2">Program writer @ Envestnet</h2>
+      <div className="icons-container">
+        <a
+          href="https://in.linkedin.com/in/gintu-tom-080b2899"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img src={linkedin} alt={"linkedin"} />
+        </a>
+        <a
+          href="https://www.facebook.com/gintu.tom"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img src={facebook} alt={"facebook"} />
+        </a>
+        <a
+          href="https://www.youtube.com/c/gintutom"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img src={youtube} alt={"youtube"} />
+        </a>
+      </div>
     </section>
   );
 }

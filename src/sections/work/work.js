@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 
 export default function Work() {
   return (
-    <section>
+    <section id="work">
       <Fade bottom duration={300} delay={200} distance="30px" cascade>
         <h1>Work</h1>
         <div className="container">

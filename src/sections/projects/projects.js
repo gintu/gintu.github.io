@@ -14,7 +14,7 @@ export default function Projects() {
   //     );
   //   });
   return (
-    <section className="project">
+    <section className="project" id="projects">
       <Fade bottom duration={300} delay={200} distance="30px" cascade>
         <h1 className="projectsTitle">Projects</h1>
 

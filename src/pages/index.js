@@ -13,7 +13,11 @@ import { Helmet } from "react-helmet";
 export default function Index() {
   return (
     <Fade bottom duration={100} delay={0} distance="30px" cascade>
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: "en",
+        }}
+      >
         <meta charSet="utf-8" />
         <title>Gintu Tom</title>
         <meta name="description" content="personal portfolio of gintu tom" />
