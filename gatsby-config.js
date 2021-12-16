@@ -3,5 +3,5 @@ module.exports = {
     siteUrl: `https://www.gintu.github.io`,
   },
   pathPrefix: "/",
-  plugins: [`gatsby-plugin-sass`],
+  plugins: [`gatsby-plugin-sass`, `gatsby-plugin-minify`],
 };
