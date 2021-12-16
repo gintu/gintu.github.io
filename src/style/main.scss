@@ -1,25 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
 
-@import './abstracts/mixins';
-@import './abstracts/variables';
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
 
+@import "./base/base";
+@import "./base/typography";
 
-@import './base/base';
-@import './base/typography';
+@import "./layout/sections";
 
+@import "../components/chips/chips.scss";
+@import "../components/card/card.scss";
 
-@import './layout/sections';
-
-
-@import '../components/chips/chips.scss';
-@import '../components/card/card.scss';
-
-
-@import '../sections/home/home';
-@import '../sections/story/story.scss';
-@import '../sections/work/work.scss';
-@import '../sections/skills/skill.scss';
-@import '../sections/projects/projects.scss';
-@import '../sections/footer/footer.scss'
-
-
+@import "../sections/home/home";
+@import "../sections/story/story.scss";
+@import "../sections/work/work.scss";
+@import "../sections/skills/skill.scss";
+@import "../sections/projects/projects.scss";
+@import "../sections/footer/footer.scss";
