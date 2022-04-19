@@ -27,6 +27,10 @@ export default function Education() {
                       Served as the president of Computer Science Association
                     </li>
                     <li>Conducted and Coordinated several events</li>
+                    <li>
+                      Won several prices for Web development, Quizes and Idea
+                      Pitching competitions
+                    </li>
                     {/* <li>Won prices in many events</li> */}
                   </ul>
                 </div>

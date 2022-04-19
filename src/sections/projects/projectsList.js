@@ -6,7 +6,13 @@ const list = [
     tools: ["React", "Express", "Postgress"],
     link: "https://google.com",
   },
-
+  {
+    title: "Create JS Boilerplate",
+    description:
+      "A vanila.js boilerplate for fast prototyping. Has 100s of users in NPM",
+    tools: ["Babel", "Parcel"],
+    link: "https://www.npmjs.com/package/create-js-boilerplate",
+  },
   {
     title: "Cryptoassets",
     description:
@@ -40,12 +46,6 @@ const list = [
     description: "A card game built with React",
     tools: ["React", "CSS", "PWA"],
     link: "https://remembro.ml",
-  },
-  {
-    title: "Drunkard",
-    description: "A webapp to mix drinks in Vue.js",
-    tools: ["Vue"],
-    link: "https://github.com/gintu/drunkard",
   },
 ];
 export default list;

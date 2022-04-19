@@ -26,13 +26,16 @@
   }
 }
 
-.footer-grid a,a:active,a:visited {
+.link-styles {
   text-decoration: none ;
-  display: block;
+  display: flex;
   cursor: pointer;
   line-height: 3rem;
   font-weight: 400;
   color:$main-color;
+}
+.link-styles:hover{
+  font-weight: 500;
 }
 
 .bottom-text{
