@@ -1,6 +1,8 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import linkedin from "../../assets/linkedin.svg";
+import github from "../../assets/github.svg";
+// import instagram from "../../assets/instagram.svg";
 import facebook from "../../assets/facebook.svg";
 import youtube from "../../assets/youtube.svg";
 import ScrollUp from "./scrollup";
@@ -27,6 +29,15 @@ export default function Home() {
 
       <h2 className="home-h2">Program writer @ Envestnet</h2>
       <div className="icons-container">
+        <a
+          href="https://github.com/gintu"
+          rel="noreferrer"
+          target="_blank"
+          style={{ marginTop: -2 }}
+        >
+          <img src={github} alt={"github"} />
+        </a>
+
         <a
           href="https://in.linkedin.com/in/gintu-tom-080b2899"
           rel="noreferrer"

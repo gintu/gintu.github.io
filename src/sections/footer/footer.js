@@ -72,7 +72,9 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <p className="bottom-text">designed and built by gintu © 2021</p>
+      <p className="bottom-text">
+        Designed and Built by <b>gintu</b> © {new Date().getFullYear()}
+      </p>
     </section>
   );
 }

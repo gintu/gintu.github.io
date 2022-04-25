@@ -13,13 +13,13 @@ export default function story() {
             Frontend Engineer. I started off making C++ console games in school
             and later on, I started making websites. I have a keen eye for
             design and was once ready to give up everything for cool, flashy
-            websites. I started my professional journey as a Full-stack
-            developer and later switched to Frontend as I enjoyed it more.
+            websites. I started my professional journey as a Full-stack engineer
+            and later switched to Frontend as I enjoyed it more.
           </p>
           <p>
-            I am a big fan of technology and recently got interested in
-            economics. I do a little bit of traveling and photography. I used to
-            read a lot when I was younger, but now just web surfing and Netflix
+            I am a huge fan of tech and I closely follow it. I do a little bit
+            of traveling and photography. I used to read a lot when I was
+            younger, but now my main hobbies are web surfing and Netflix.
           </p>
         </div>
       </Fade>

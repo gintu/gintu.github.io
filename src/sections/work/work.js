@@ -17,7 +17,7 @@ export default function Work() {
               <div className="Card">
                 <div className="CardContent">
                   <p className="Title">Envestnet</p>
-                  <p className="SubTitle">Senior Front-end developer</p>
+                  <p className="SubTitle">Senior Front-end Engineer</p>
                   <ul className="Details">
                     <li>
                       Currently building UI for Next Generation Proposal which
@@ -54,11 +54,11 @@ export default function Work() {
               <div className="Card">
                 <div className="CardContent">
                   <p className="Title">Clevero</p>
-                  <p className="SubTitle">Full-stack developer</p>
+                  <p className="SubTitle">Full-stack Engineer</p>
 
                   <ul className="Details">
                     <li>
-                      Worked as .a part of a small team to develop an HR
+                      Worked as a part of a small team to develop an HR
                       management platform for small to midsized companies
                     </li>
                     <li>Mainly involved with React and Node</li>
