@@ -1,0 +1,5 @@
+.underline {
+    background: var(--main-color);
+    height: 5px;
+    border-radius: 20px;
+}
