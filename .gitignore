@@ -46,7 +46,3 @@ yarn-error.log*
 # Gatsby (old - for reference)
 .cache
 public
-
-# Lock files (keep yarn.lock if using yarn, or package-lock.json if using npm)
-# For this project, we'll keep yarn.lock
-package-lock.json
