@@ -5,10 +5,12 @@ import Education from './sections/education/Education';
 import Skill from './sections/skills/Skill';
 import Projects from './sections/projects/Projects';
 import Footer from './sections/footer/Footer';
+import Nav from './components/nav/Nav';
 
 function App() {
     return (
-        <div className="fade-cascade">
+        <>
+            <Nav />
             <Home />
             <Story />
             <Work />
@@ -16,7 +18,7 @@ function App() {
             <Skill />
             <Projects />
             <Footer />
-        </div>
+        </>
     );
 }
 

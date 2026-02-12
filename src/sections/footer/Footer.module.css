@@ -16,16 +16,13 @@
     display: flex;
     cursor: pointer;
     line-height: 3rem;
-    font-weight: 400;
     color: var(--main-color);
 }
 
-.linkStyles:hover {
-    font-weight: 500;
-}
+.linkStyles:hover {}
 
 .bottomText {
-    font-weight: 300;
+
     font-size: 1.3rem;
     text-align: center;
     margin-top: 4rem;
@@ -33,7 +30,6 @@
 
 .title {
     font-size: 3rem;
-    font-weight: normal;
     margin: 0;
 }
 

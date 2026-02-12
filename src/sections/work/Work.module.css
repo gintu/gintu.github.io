@@ -57,24 +57,15 @@
 }
 
 .title {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
     margin: 4px 0 6px 0;
 }
 
 .subTitle {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
     margin: 2px 0 4px 0;
 }
 
 .details {
     padding-left: 20px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
 }
 
 .details li {
