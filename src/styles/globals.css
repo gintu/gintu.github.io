@@ -1,24 +1,16 @@
 /* Self-hosted Fonts */
 @font-face {
   font-family: 'Manrope';
-  src: url('/src/fonts/manrope-v20-latin-regular.woff2') format('woff2');
-  font-weight: 400;
+  src: url('/src/fonts/manrope-v20-latin-600.woff2') format('woff2');
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Manrope';
-  src: url('/src/fonts/manrope-v20-latin-500.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Manrope';
-  src: url('/src/fonts/manrope-v20-latin-700.woff2') format('woff2');
-  font-weight: 700;
+  src: url('/src/fonts/manrope-v20-latin-800.woff2') format('woff2');
+  font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
@@ -198,38 +190,93 @@ body {
 /* Typography */
 h1 {
   font-size: clamp(4.2rem, 12vw + 1rem, 8.6rem);
-  font-weight: 700;
+  font-weight: 800;
   line-height: 120%;
 }
 
 h2 {
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h3 {
   font-size: 2.5rem;
-  font-weight: 700;
-  line-height: 140%;
+  font-weight: 600;
+  line-height: 180%;
 }
 
 h4 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
 }
 
 p {
-  font-weight: 700;
+  font-weight: 600;
   line-height: 170%;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
 }
 
 a {
   font-size: 1.6rem;
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none;
 }
 
 a:hover {
   transition: all 0.3s ease-in-out;
+}
+
+/* Grid System */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 3rem;
+  grid-auto-rows: auto;
+  margin: auto;
+  width: 100%;
+}
+
+.col-span-4 {
+  grid-column: span 4;
+}
+
+.col-span-8 {
+  grid-column: span 8;
+}
+
+.col-8-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 1rem;
+    margin:auto;
+}
+
+.col-span-2 {
+    grid-column: span 2;
+    margin-bottom: 2rem;
+}
+.col-span-6 {
+    grid-column: span 6;
+    margin-bottom: 2rem;
+}
+
+.section {
+  margin-top: 3rem;
+  margin-bottom: 8rem;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2rem;
+}
+
+.text-black {
+  color: var(--second-color);
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .col-span-4,
+  .col-span-8 {
+    grid-column: span 12;
+  }
 }

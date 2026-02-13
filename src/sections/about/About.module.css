@@ -1,0 +1,10 @@
+
+.col2grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem 1rem;
+    grid-auto-rows: auto;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

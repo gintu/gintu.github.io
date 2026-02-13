@@ -1,22 +1,59 @@
-import Card from '@components/card/Card';
-import projectsList from './projectsList';
-import styles from './Projects.module.css';
-
 export default function Projects() {
-    return (
-        <section className={styles.project} id="projects">
-            <h1 className={styles.projectsTitle}>Projects</h1>
-
-            <div className={styles.gridContainer}>
-                {projectsList.map((project) => (
-                    <Card
-                        key={project.title}
-                        title={project.title}
-                        description={project.description}
-                        tools={project.tools}
-                    />
-                ))}
+  return (
+    <section className={"section"}>
+      <div className="grid-container">
+        <div className="col-span-4">
+          <h2 className="text-black">Projects</h2>
+        </div>
+        <div className="col-span-8">
+          <div className="col-8-grid">
+            <div className="col-span-2">
+              <p className="text-black">2025</p>
             </div>
-        </section>
-    );
+            <div className="col-span-6">
+              <div>
+                <p className="text-black">Project Name</p>
+                <p>Project Description</p>
+                <p>
+                  Served as the president of Computer Science Association
+                  Conducted and Coordinated several events Won several prices
+                  for Web development, Quizes and Idea Pitching competitions
+                </p>
+              </div>
+            </div>
+            <div className="col-span-2">
+              <p className="text-black">2024</p>
+            </div>
+            <div className="col-span-6">
+              <div>
+                <p className="text-black">Project Name</p>
+                <p>Project Description</p>
+                <p>
+                  Led the design and implementation of interfaces, 0-1 design
+                  systems, landing pages and promotional material for various YC
+                  companies such as Brightdrop, Rally.video, Webapp.io, Datafold
+                  and VC firms such as Saltwater.
+                </p>
+              </div>
+            </div>
+            <div className="col-span-2">
+              <p className="text-black">2022</p>
+            </div>
+            <div className="col-span-6">
+              <div>
+                <p className="text-black">Project Name</p>
+                <p>Project Description</p>
+                <p>
+                  Led the design and implementation of interfaces, 0-1 design
+                  systems, landing pages and promotional material for various YC
+                  companies such as Brightdrop, Rally.video, Webapp.io, Datafold
+                  and VC firms such as Saltwater.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }

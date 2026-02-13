@@ -3,16 +3,20 @@ import styles from "./Home.module.css";
 import github from "../../assets/github.svg";
 import linkedin from "../../assets/linkedin.svg";
 import youtube from "../../assets/youtube.svg";
+import Divider from "@/components/divider/Divider";
+import gintu from "../../images/gintu.jpeg";
 
 export default function Home() {
   return (
-    <section className={styles.about}>
-      <div className={styles.aboutContainer}>
-        <div className={styles.span4}>
-          <img src="/images/gintu.png" alt="Gintu" />
+    <section className={"section"}>
+      <div className="grid-container">
+        <div className="col-span-4">
+          <div className={styles.imageContainer}>
+            <img src={gintu} alt="Gintu" />
+          </div>
         </div>
-        <div className={styles.span8}>
-          <h1>Hello,</h1>
+        <div className="col-span-8">
+          <h1 className="text-black">Hello,</h1>
           <h1>I'm Gintu Tom</h1>
           <h3
             style={{
@@ -22,14 +26,14 @@ export default function Home() {
             developer , designer
           </h3>
           <h3>
-            I'm a product engineer who thrives on all things ambiguous and
-            gnarly. With a strong focus on craft, storytelling, and high
-            exploration output, I enjoy diving into the details, solving
-            problems thoughtfully, and bringing order to chaos.
+            I'm an engineer who thrives on all things ambiguous and gnarly. With
+            a strong focus on craft, storytelling, and high exploration output,
+            I enjoy diving into the details, solving problems thoughtfully, and
+            bringing order to chaos.
           </h3>
           <div className={styles.col2grid}>
             <div>
-              <p>Day job</p>
+              <p className="text-black">Day job</p>
               <p>
                 I'm a product designer who thrives on all things ambiguous and
                 gnarly. With a strong focus on craft, storytelling, and high
@@ -38,7 +42,7 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <p>Out of office</p>
+              <p className="text-black">Out of office</p>
               <p>
                 I'm a product designer who thrives on all things ambiguous and
                 gnarly. With a strong focus on craft, storytelling, and high
@@ -58,6 +62,7 @@ export default function Home() {
               <img src={youtube} alt="Youtube" />
             </a>
           </div>
+          <Divider style={{ marginTop: "3rem" }} />
         </div>
       </div>
     </section>
