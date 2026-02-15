@@ -1,8 +1,5 @@
-import Chips from "@components/chips/Chips";
 import skillList from "./skillList";
 import styles from "./Skill.module.css";
-
-import Divider from "@/components/divider/Divider";
 
 export default function Skills() {
   return (

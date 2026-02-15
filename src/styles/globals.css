@@ -260,6 +260,14 @@ a:hover {
     margin-bottom: 2rem;
 }
 
+@media only screen and (min-width: 56.25em) and (max-width: 68.75em) {
+   .col-span-2 {
+        /* This applies only between 900px and 1100px */
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
 .section {
   margin-top: 3rem;
   margin-bottom: 8rem;
@@ -276,6 +284,15 @@ a:hover {
 
 @media only screen and (max-width: 56.25em) {
   .col-span-4,
+  .col-span-8 {
+    grid-column: span 12;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .col-span-2 {
+    display: none;
+  }
   .col-span-8 {
     grid-column: span 12;
   }
