@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_gatsby_site=self.webpackChunkmy_gatsby_site||[]).push([[883],{9616:function(e,n,t){t.r(n);var o=t(7294);n.default=function(){return o.createElement("main",null,"ooops! page you are looking for is not found")}}}]);
+//# sourceMappingURL=component---src-pages-404-js-187a4678732a9733c96e.js.map
