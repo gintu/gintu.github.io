@@ -1,0 +1,107 @@
+---
+import Divider from "../../components/divider/Divider.astro";
+---
+
+<section class="section">
+  <div class="grid-container">
+    <div class="col-span-4">
+      <div class="image-container">
+        <img src="/images/gintu.jpeg" alt="Gintu" />
+      </div>
+    </div>
+    <div class="col-span-8">
+      <h1 class="text-black">Hello,</h1>
+      <h1>I'm Gintu Tom</h1>
+      <h3 style="margin-bottom: 10px;">developer , designer</h3>
+      <h3>
+        I'm an engineer who thrives on all things ambiguous and gnarly. With a
+        strong focus on craft, storytelling, and high exploration output, I
+        enjoy diving into the details, solving problems thoughtfully, and
+        bringing order to chaos.
+      </h3>
+      <div class="col2grid">
+        <div>
+          <p class="text-black">Day job</p>
+          <p>
+            I'm a product designer who thrives on all things ambiguous and
+            gnarly. With a strong focus on craft, storytelling, and high
+            exploration output, I enjoy diving into the details, solving
+            problems thoughtfully, and bringing order to chaos.
+          </p>
+        </div>
+        <div>
+          <p class="text-black">Out of office</p>
+          <p>
+            I'm a product designer who thrives on all things ambiguous and
+            gnarly. With a strong focus on craft, storytelling, and high
+            exploration output, I enjoy diving into the details, solving
+            problems thoughtfully, and bringing order to chaos.
+          </p>
+        </div>
+      </div>
+      <div class="icon-container">
+        <a href="#">
+          <img src="/images/github.svg" alt="Github" />
+        </a>
+        <a href="#">
+          <img src="/images/linkedin.svg" alt="Linkedin" />
+        </a>
+        <a href="#">
+          <img src="/images/youtube.svg" alt="Youtube" />
+        </a>
+      </div>
+      <Divider style="margin-top: 3rem;" />
+    </div>
+  </div>
+</section>
+
+<style>
+  .image-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media only screen and (max-width: 56.25em) {
+    .image-container {
+      width: 30rem;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .col2grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    grid-auto-rows: auto;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  @media only screen and (max-width: 31.25em) {
+    .col2grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  .icon-container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+</style>

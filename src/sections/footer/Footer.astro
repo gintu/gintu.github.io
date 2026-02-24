@@ -1,0 +1,95 @@
+---
+const year = new Date().getFullYear();
+---
+
+<section class="section">
+  <div class="grid-container">
+    <div class="col-span-4">
+      <h1>gintu.</h1>
+    </div>
+    <div class="col-span-8">
+      <div class="grid-col3">
+        <div>
+          <h3 class="title">Contact</h3>
+          <a
+            class="link"
+            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=gintutom@gmail.com"
+            rel="noreferrer"
+            target="_blank"
+          >
+            gintutom@gmail.com
+          </a>
+        </div>
+        <div>
+          <h3 class="title">Connect</h3>
+          <a
+            class="link"
+            href="https://in.linkedin.com/in/gintu-tom-080b2899"
+            rel="noreferrer"
+            target="_blank">Linkedin</a
+          >
+          <a
+            class="link"
+            href="https://www.facebook.com/gintu.tom/"
+            rel="noreferrer"
+            target="_blank">Facebook</a
+          >
+          <a
+            class="link"
+            href="https://twitter.com/gintutom"
+            rel="noreferrer"
+            target="_blank">Twitter</a
+          >
+          <a
+            class="link"
+            href="https://github.com/gintu"
+            rel="noreferrer"
+            target="_blank">Github</a
+          >
+        </div>
+        <div>
+          <h3 class="title">Content</h3>
+          <a class="link" href="#about">About</a>
+          <a class="link" href="#work">Work</a>
+          <a class="link" href="#home">Home</a>
+          <a class="link" href="#education">Education</a>
+          <a class="link" href="#projects">Projects</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="bottom-text">Designed and Built by <b>gintu</b> © {year}</p>
+</section>
+
+<style>
+  .link {
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+    line-height: 3rem;
+    color: var(--main-color);
+  }
+
+  .bottom-text {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 4rem;
+  }
+
+  .title {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .grid-col3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+  }
+
+  @media only screen and (max-width: 31.25em) {
+    .grid-col3 {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+</style>

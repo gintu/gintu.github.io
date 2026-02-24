@@ -1,0 +1,16 @@
+---
+interface Props {
+  width: string;
+}
+const { width } = Astro.props;
+---
+
+<div class="underline" style={`width: ${width}`}></div>
+
+<style>
+  .underline {
+    background: var(--main-color);
+    height: 5px;
+    border-radius: 20px;
+  }
+</style>

@@ -1,0 +1,52 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  tools?: string[];
+}
+const { title, description, tools } = Astro.props;
+---
+
+<div class="card">
+  <h3 class="title">{title}</h3>
+  <p class="description">{description}</p>
+  {
+    tools && tools.length > 0 && (
+      <div>
+        {tools.map((tool) => (
+          <span class="chip">{tool}</span>
+        ))}
+      </div>
+    )
+  }
+</div>
+
+<style>
+  .card {
+    background-color: var(--third-color);
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 540px;
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 4px 0 6px 0;
+  }
+
+  .description {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .chip {
+    background-color: var(--second-color);
+    display: inline-block;
+    border-radius: 50px;
+    padding: 5px 10px;
+    margin: 0 8px 8px 0;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+</style>

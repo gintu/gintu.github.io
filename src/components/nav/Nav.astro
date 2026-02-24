@@ -1,28 +1,40 @@
-.navBar {
+---
+
+---
+
+<nav>
+  <ul>
+    <li><a href="#blog">Blog</a></li>
+    <li><a href="#resume">Resume</a></li>
+  </ul>
+</nav>
+
+<style>
+  nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding: 3rem;
-}
+  }
 
-.navLinks {
+  ul {
     display: flex;
     list-style: none;
-}
+  }
 
-.navLinks li {
+  ul li {
     margin-left: 20px;
-}
+  }
 
-.navLinks a {
+  ul a {
     font-size: 1.6rem;
     color: var(--main-color);
     position: relative;
     text-decoration: none;
-}
+  }
 
-.navLinks a::after {
-    content: '';
+  ul a::after {
+    content: "";
     position: absolute;
     width: 0;
     height: 2px;
@@ -30,8 +42,9 @@
     left: 0;
     background-color: var(--main-color);
     transition: width 0.3s ease-in-out;
-}
+  }
 
-.navLinks a:hover::after {
+  ul a:hover::after {
     width: 100%;
-}
+  }
+</style>

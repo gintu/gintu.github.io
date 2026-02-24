@@ -1,0 +1,70 @@
+---
+import Divider from "../../components/divider/Divider.astro";
+---
+
+<section class="section">
+  <div class="grid-container">
+    <div class="col-span-4">
+      <h2 class="text-black">My Super Powers</h2>
+    </div>
+    <div class="col-span-8">
+      <div class="col2grid" style="margin-bottom: 3rem;">
+        <div>
+          <p class="text-black">Day job</p>
+          <p>
+            I'm a product designer who thrives on all things ambiguous and
+            gnarly. With a strong focus on craft, storytelling, and high
+            exploration output, I enjoy diving into the details, solving
+            problems thoughtfully, and bringing order to chaos.
+          </p>
+        </div>
+        <div>
+          <p class="text-black">Out of office</p>
+          <p>
+            I'm a product designer who thrives on all things ambiguous and
+            gnarly. With a strong focus on craft, storytelling, and high
+            exploration output, I enjoy diving into the details, solving
+            problems thoughtfully, and bringing order to chaos.
+          </p>
+        </div>
+        <div>
+          <p class="text-black">Out of office</p>
+          <p>
+            I'm a product designer who thrives on all things ambiguous and
+            gnarly. With a strong focus on craft, storytelling, and high
+            exploration output, I enjoy diving into the details, solving
+            problems thoughtfully, and bringing order to chaos.
+          </p>
+        </div>
+        <div>
+          <p class="text-black">Out of office</p>
+          <p>
+            I'm a product designer who thrives on all things ambiguous and
+            gnarly. With a strong focus on craft, storytelling, and high
+            exploration output, I enjoy diving into the details, solving
+            problems thoughtfully, and bringing order to chaos.
+          </p>
+        </div>
+      </div>
+      <Divider />
+    </div>
+  </div>
+</section>
+
+<style>
+  .col2grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem 1rem;
+    grid-auto-rows: auto;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  @media only screen and (max-width: 31.25em) {
+    .col2grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+</style>

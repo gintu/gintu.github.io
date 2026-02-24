@@ -1,0 +1,58 @@
+---
+import skillList from "./skillList";
+---
+
+<section class="section">
+  <div class="grid-container">
+    <div class="col-span-4">
+      <h2 class="text-black">Skills</h2>
+    </div>
+    <div class="col-span-8">
+      <div class="grid-col4">
+        {
+          skillList.map((skill) => (
+            <div class="box">
+              <p class="text-black">{skill.name}</p>
+              <p>{skill.category}</p>
+              <p>{skill.description}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .grid-col4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    border-top: 0.5px solid #0000001f;
+    border-left: 0.5px solid #0000001f;
+  }
+
+  @media only screen and (min-width: 56.25em) and (max-width: 68.75em) {
+    .grid-col4 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media only screen and (max-width: 43.75em) {
+    .grid-col4 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media only screen and (max-width: 31.25em) {
+    .grid-col4 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .box {
+    border-right: 0.5px solid #0000001f;
+    border-bottom: 0.5px solid #0000001f;
+    padding: 2rem;
+  }
+</style>
