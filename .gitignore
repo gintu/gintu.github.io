@@ -1,7 +1,5 @@
 # Dependencies
 node_modules
-.pnp
-.pnp.js
 
 # Testing
 coverage
@@ -27,22 +25,6 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# Vercel
-.vercel
-
-# Vite
-.vite
-
-# Editor directories and files
-.vscode
-!.vscode/extensions.json
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# Gatsby (old - for reference)
+# astro
+.astro
 .cache
-public
