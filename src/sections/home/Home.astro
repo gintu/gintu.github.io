@@ -1,12 +1,23 @@
 ---
 import Divider from '../../components/divider/Divider.astro';
+import { Image, Picture } from 'astro:assets';
+import gintuImage from '@/assets/images/gintu.jpeg';
+import githubIcon from '@/assets/icons/github.svg';
+import linkedinIcon from '@/assets/icons/linkedin.svg';
+import youtubeIcon from '@/assets/icons/youtube.svg';
 ---
 
 <section class="section">
   <div class="grid-container">
     <div class="col-span-4">
       <div class="image-container">
-        <img src="/images/gintu.jpeg" alt="Gintu" />
+        <Picture
+          src={gintuImage}
+          formats={['avif', 'webp']}
+          alt="Gintu"
+          loading={'lazy'}
+          decoding={'async'}
+        />
       </div>
     </div>
     <div class="col-span-8">
@@ -42,13 +53,13 @@ import Divider from '../../components/divider/Divider.astro';
       </div>
       <div class="icon-container">
         <a href="#">
-          <img src="/images/github.svg" alt="Github" />
+          <Image src={githubIcon} alt="Github" />
         </a>
         <a href="#">
-          <img src="/images/linkedin.svg" alt="Linkedin" />
+          <Image src={linkedinIcon} alt="Linkedin" />
         </a>
         <a href="#">
-          <img src="/images/youtube.svg" alt="Youtube" />
+          <Image src={youtubeIcon} alt="Youtube" />
         </a>
       </div>
       <Divider style="margin-top: 3rem;" />
